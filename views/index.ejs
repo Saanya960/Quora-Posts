@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>all posts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>quora posts</h1>
+
+    <% for(post of posts) { %>
+        <div class="box">
+            <h3 class="user">@<%= post.username %></h3>
+            <h4 class="con"><%=post.content%></h4>
+            <a href="/posts/<%=post.id%>">see in detail</a>
+             <a href="/posts/<%=post.id%>/edit">Edit</a>
+        </div>
+        <% } %>
+    <a href="/posts/new">create new post</a>
+    
+</body>
+</html>
