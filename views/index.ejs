@@ -14,7 +14,10 @@
             <h3 class="user">@<%= post.username %></h3>
             <h4 class="con"><%=post.content%></h4>
             <a href="/posts/<%=post.id%>">see in detail</a>
-             <a href="/posts/<%=post.id%>/edit">Edit</a>
+            <a href="/posts/<%=post.id%>/edit">Edit</a> <hr>
+            <form method="post" action="/posts/<%=post.id%>?_method=DELETE">
+            <button>Delete</button>
+            </form>
         </div>
         <% } %>
     <a href="/posts/new">create new post</a>
