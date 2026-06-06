@@ -14,6 +14,11 @@ Live-Demo:
 
 1.Clone the repository
 git clone https://github.com/Saanya960/Quora-Posts.git
+2.Write command
+npm init -y
+npm i express
+npm i override
+nodemon
 
 2.Open http://localhost:3000/posts route on browser.
 
