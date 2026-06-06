@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>all posts</title>
+    <title>Quora-a place to share posts</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,14 +13,16 @@
         <div class="box">
             <h3 class="user">@<%= post.username %></h3>
             <h4 class="con"><%=post.content%></h4>
-            <a href="/posts/<%=post.id%>">see in detail</a>
+            <a href="/posts/<%=post.id%>">see in detail</a> &nbsp; &nbsp;
             <a href="/posts/<%=post.id%>/edit">Edit</a> <hr>
             <form method="post" action="/posts/<%=post.id%>?_method=DELETE">
             <button>Delete</button>
-            </form>
-        </div>
+            </form> <br>
+            <p class="none">no visibility</p>
+        </div> 
         <% } %>
-    <a href="/posts/new">create new post</a>
+        <br>
+    <a class="create" href="/posts/new">create new post</a>
     
 </body>
 </html>
