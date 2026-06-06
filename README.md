@@ -3,8 +3,6 @@
 It is a place where we can add our posts,delete them,edit them and read them.Basically,we can perform all CRUD operations here.I used the concept of REST_API to make this mini-project.
 I used EJS,JavaScript and small CSS as techStacks.
 
-## Preview
-Live-Demo:
 ## TechStack
 1.HTML
 2.CSS
