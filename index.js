@@ -47,7 +47,6 @@ app.post("/posts",(req,res) => {
 app.delete("/posts/:id",(req,res) => {
     let {id} = req.params;
      posts=posts.filter(p => id != p.id);
-    res.send("delete done");
     res.redirect("/posts");
 })
 
