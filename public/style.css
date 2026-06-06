@@ -1,3 +1,44 @@
+.new {
+    color:black;
+    background-color: burlywood;
+    opacity:0.8;
+    border-radius: 5px;
+    font-size:20px;
+}
+
+.new:hover {
+    box-shadow: 2px 2px 5px black;
+}
+
+button {
+    color:white;
+    border:none;
+    background-color: brown;
+
+}
+/* .edit {
+
+} */
+
+
+
+.none {
+    display:none;
+}
+
+.create {
+    color:black;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.592);
+    font-family: 'Arial';
+}
+
+
+
 h1 {
     color: maroon;
 }
