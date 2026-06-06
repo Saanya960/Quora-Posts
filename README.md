@@ -25,6 +25,6 @@ git clone https://github.com/Saanya960/Quora-Posts.git
 
 ## Author
 Saanya Mittal
-Github:
+Github: https://github.com/Saanya960
 
 
